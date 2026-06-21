@@ -4,12 +4,12 @@ from app.database import Base
 from app.database import engine
 
 from app.models.stock import Stock
+from app.models.stock_price import StockPrice
+from app.models.fundamentals import Fundamental
 
 Base.metadata.create_all(bind=engine)
 
-app = FastAPI(
-    title="Equity Backtesting API"
-)
+app = FastAPI()
 
 @app.get("/")
 def home():
