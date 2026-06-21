@@ -1,0 +1,22 @@
+NIFTY_STOCKS = [
+    "RELIANCE.NS",
+    "TCS.NS",
+    "INFY.NS",
+    "HDFCBANK.NS",
+    "ICICIBANK.NS",
+    "SBIN.NS",
+    "LT.NS",
+    "ITC.NS",
+    "BHARTIARTL.NS",
+    "AXISBANK.NS",
+    "KOTAKBANK.NS",
+    "ASIANPAINT.NS",
+    "MARUTI.NS",
+    "SUNPHARMA.NS",
+    "TITAN.NS",
+    "ULTRACEMCO.NS",
+    "BAJFINANCE.NS",
+    "WIPRO.NS",
+    "HCLTECH.NS",
+    "NTPC.NS"
+]

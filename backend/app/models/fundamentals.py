@@ -33,4 +33,8 @@ class Fundamental(Base):
 
     pe_ratio = Column(Float)
 
+    pb_ratio = Column(Float)
+
     net_profit = Column(Float)
+
+    debt_to_equity = Column(Float)
