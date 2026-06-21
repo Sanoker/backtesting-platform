@@ -22,3 +22,13 @@ app.include_router(
     prefix="/stocks",
     tags=["Stocks"]
 )
+
+from app.routers.backtest import (
+    router as backtest_router
+)
+
+app.include_router(
+    backtest_router,
+    prefix="/backtest",
+    tags=["Backtest"]
+)
